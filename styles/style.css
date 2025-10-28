@@ -120,7 +120,7 @@ body {
 .apresentacao__links__subtitulo {
     font-family: var(--fonte-secundaria);
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .apresentacao__links__navegacao {
@@ -134,7 +134,7 @@ body {
     font-size: 1.5rem;
     text-decoration: none;
     font-weight: 600;
-    padding: 21.5px 0px;
+    padding: 21.5px 100px;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
 }
@@ -154,7 +154,7 @@ body {
 }
 
 .rodape {
-    padding: 24px;
+    padding: 10px;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     text-align: center;
@@ -172,17 +172,12 @@ body {
         justify-content: center;
     }
 
-    .apresentacao {
+    .apresentacao, .apresentacao__curriculo {
         flex-direction: column-reverse;
         padding: 5%;
     }
 
     .apresentacao__conteudo {
         width: auto;
-    }
-
-    .apresentacao__curriculo {
-        flex-direction: column-reverse;
-        padding: 5%;
     }
 }
